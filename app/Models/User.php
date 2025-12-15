@@ -73,7 +73,7 @@ class User extends Authenticatable
     // Relasi ke tabel divisi (kepala pusat)
     public function divisi()
     {
-        return $this->belongsTo(Divisi::class);
+        return $this->belongsTo(divisi::class);
     }
 
 
