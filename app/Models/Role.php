@@ -20,12 +20,12 @@ class Role extends Model
     // Relasi kana table user
     public function users()
     {
-        return $this->belongsToMany(User::class, 'USER_ROLES');
+        return $this->belongsToMany(User::class, 'user_roles');
     }
 
     public function menus()
     {
-        return $this->belongsToMany(Menu::class, 'ROLE_MENUS')
+        return $this->belongsToMany(Menu::class, 'role_menus')
             ->withPivot('permissions')
             ->withTimestamps();
     }
