@@ -42,6 +42,11 @@ class VisimisiCrud extends Component
         $this->dispatch('initEditor'); // aktifkan CKEditor
     }
 
+    public function __invoke()
+    {
+        return $this->render();
+    }
+
     public function render()
     {
         return view('livewire.admin.page.visimisi-crud');
