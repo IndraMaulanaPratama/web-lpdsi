@@ -22,7 +22,7 @@ use App\Livewire\Admin\Page\PartnerCrud;
 use App\Livewire\Admin\Page\OrganizationCrud;
 use App\Livewire\Admin\Page\BeritaCrud;
 use App\Livewire\Admin\Page\GalleryCrud;
-use App\Livewire\Admin\Page\VisiMisiCrud;
+use App\Livewire\Admin\Page\VisimisiCrud;
 use App\Livewire\Admin\Page\SambutanCrud;
 use App\Livewire\Admin\Page\LabKomputerCrud;
 use App\Livewire\Admin\Page\LabBahasaCrud;
@@ -30,7 +30,7 @@ use App\Livewire\Admin\Page\LabPemerintahanCrud;
 use App\Livewire\Admin\Page\PddiktiCrud;
 use App\Livewire\Admin\Page\AgendaCrud;
 use App\Livewire\Admin\Page\SopCrud;
-use App\Livewire\Admin\Page\PanduanCrud;    
+use App\Livewire\Admin\Page\PanduanCrud;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
