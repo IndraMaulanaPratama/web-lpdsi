@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Divisi;  // Fixed case sensitivity
+use App\Models\divisi;  // Fixed case sensitivity
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -42,7 +42,7 @@ class DivisiSeeder extends Seeder
         ];
 
         foreach ($divisis as $divisi) {
-            Divisi::create($divisi);
+            divisi::create($divisi);
         }
 
         $this->command->info('Data seeder Kepala Pusat parantos rengse dipidamel juragan 🙏!');
